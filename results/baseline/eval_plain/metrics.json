@@ -1,0 +1,239 @@
+{
+ "conf_from_val": 0.3000000000000001,
+ "val": {
+  "map50": 0.993782114525767,
+  "map50_95": 0.889966392844796,
+  "char_P": 0.9993196353245339,
+  "char_R": 0.9992516497720934,
+  "char_F1": 0.9992856413919788,
+  "det_F1": 0.999761880463993,
+  "cls_acc_on_matched": 0.9995236474991493,
+  "macro_F1": 0.9979835397245493,
+  "n_pred": 14698.0,
+  "n_gt": 14699.0,
+  "ctr_P": 0.9993876717920805,
+  "ctr_R": 0.9993196816109939,
+  "ctr_F1": 0.9993536755451238,
+  "conf": 0.3000000000000001,
+  "ms_per_image": 70.12925149956573
+ },
+ "test": {
+  "map50": 0.7910064107361303,
+  "map50_95": 0.15211393746366014,
+  "char_P": 0.8807550266721379,
+  "char_R": 0.8247137477906709,
+  "char_F1": 0.8518136360028573,
+  "det_F1": 0.8596714024922613,
+  "cls_acc_on_matched": 0.9908595697534853,
+  "macro_F1": 0.7603036074680131,
+  "n_pred": 12185.0,
+  "n_gt": 13013.0,
+  "ctr_P": 0.979975379565039,
+  "ctr_R": 0.9176208406977637,
+  "ctr_F1": 0.9477736328280022,
+  "conf": 0.3000000000000001,
+  "ms_per_image": 72.35016499907942
+ },
+ "test_per_image_charF1": [
+  [
+   0.7650273224043715,
+   "data/angelina/uploaded/test2/16208199091213172220599072788385.labeled.jpg"
+  ],
+  [
+   0.8545454545454546,
+   "data/angelina/uploaded/test2/image_893.labeled.jpg"
+  ],
+  [
+   0.8757062146892656,
+   "data/angelina/uploaded/test2/16149297430347959904043812835237.labeled.jpg"
+  ],
+  [
+   0.94,
+   "data/angelina/uploaded/test2/16133680849224939776977609910946.labeled.jpg"
+  ],
+  [
+   0.9945054945054945,
+   "data/angelina/uploaded/test2/image_1104.labeled.jpg"
+  ],
+  [
+   0.4122448979591836,
+   "data/angelina/uploaded/test2/16158293792985296089064141415508.labeled.jpg"
+  ],
+  [
+   0.991304347826087,
+   "data/angelina/uploaded/test2/16212558309825739935733992080657.labeled.jpg"
+  ],
+  [
+   0.9779735682819384,
+   "data/angelina/uploaded/test2/image_757.labeled.jpg"
+  ],
+  [
+   0.6462882096069869,
+   "data/angelina/uploaded/test2/16176160088617889824558606265568.labeled.jpg"
+  ],
+  [
+   0.9523809523809524,
+   "data/angelina/uploaded/test2/16175620075383318290172083202563.labeled.jpg"
+  ],
+  [
+   0.9734513274336283,
+   "data/angelina/uploaded/test2/WhatsApp_Image_2021-02-03_at_15.28.58.labeled.jpg"
+  ],
+  [
+   0.9943661971830986,
+   "data/angelina/uploaded/test2/16214103262132543716715191555641.labeled.jpg"
+  ],
+  [
+   0.9104258443465492,
+   "data/angelina/uploaded/test2/16196980837743756197191329946704.labeled.jpg"
+  ],
+  [
+   0.9058524173027991,
+   "data/angelina/uploaded/test2/16123469868604291475964485342376.labeled.jpg"
+  ],
+  [
+   0.9717514124293786,
+   "data/angelina/uploaded/test2/16208094668749062583560245145727.labeled.jpg"
+  ],
+  [
+   0.8690292758089367,
+   "data/angelina/uploaded/test2/image_768.labeled.jpg"
+  ],
+  [
+   0.663316582914573,
+   "data/angelina/uploaded/test2/3_8.labeled.jpg"
+  ],
+  [
+   0.7670753064798599,
+   "data/angelina/uploaded/test2/16163497582185916133037327975287.labeled.jpg"
+  ],
+  [
+   0.9796355841371918,
+   "data/angelina/uploaded/test2/pic1615798032090.labeled.jpg"
+  ],
+  [
+   0.9310793237971392,
+   "data/angelina/uploaded/test2/16207179832707389675765890422772.labeled.jpg"
+  ],
+  [
+   1.0,
+   "data/angelina/uploaded/test2/image_1330.labeled.jpg"
+  ],
+  [
+   0.9877300613496932,
+   "data/angelina/uploaded/test2/image_1821.labeled.jpg"
+  ],
+  [
+   0.9818181818181818,
+   "data/angelina/uploaded/test2/image_264.labeled.jpg"
+  ],
+  [
+   0.7682672233820459,
+   "data/angelina/uploaded/test2/16166167545185647725257998309614.labeled.jpg"
+  ],
+  [
+   0.8423772609819121,
+   "data/angelina/uploaded/test2/pic1617087696042.labeled.jpg"
+  ],
+  [
+   0.21487603305785125,
+   "data/angelina/uploaded/test2/16187743941276670750846468527301.labeled.jpg"
+  ],
+  [
+   0.9960629921259843,
+   "data/angelina/uploaded/test2/1613636025206..labeled.jpg"
+  ],
+  [
+   0.9537366548042705,
+   "data/angelina/uploaded/test2/1614564047878-1850303651.labeled.jpg"
+  ],
+  [
+   0.8852459016393442,
+   "data/angelina/uploaded/test2/0c62b07dc3ff44e4982cbb573f3b6d95.labeled.jpg"
+  ],
+  [
+   0.37037037037037035,
+   "data/angelina/uploaded/test2/0fefa93494664df3b677a9b36ac4660f.labeled.jpg"
+  ],
+  [
+   0.96,
+   "data/angelina/uploaded/test2/1557DB84-0324-4C67-8F98-EF9C5862F669.labeled.jpg"
+  ],
+  [
+   0.8441754916792739,
+   "data/angelina/uploaded/test2/16117401078905499179755929287133.labeled.jpg"
+  ],
+  [
+   0.9452054794520548,
+   "data/angelina/uploaded/test2/16119077073007616661040361423621.labeled.jpg"
+  ],
+  [
+   0.9554655870445344,
+   "data/angelina/uploaded/test2/20936b0a999745edb5853b017d9602a7.labeled.jpg"
+  ],
+  [
+   0.9160997732426303,
+   "data/angelina/uploaded/test2/3397e0e8762f4e02a10de0647f0799c5.labeled.jpg"
+  ],
+  [
+   0.9887640449438202,
+   "data/angelina/uploaded/test2/34adf8a76fb848688b020a1622f959fe.labeled.jpg"
+  ],
+  [
+   1.0,
+   "data/angelina/uploaded/test2/3b23872d176e473d845af27fe791c886.labeled.jpg"
+  ],
+  [
+   0.6511627906976744,
+   "data/angelina/uploaded/test2/3cbd0fff5fa64efda15a1fee5eee4a8f.labeled.jpg"
+  ],
+  [
+   0.4612403100775194,
+   "data/angelina/uploaded/test2/433ce4ded21b44f780920e3b2f463543.labeled.jpg"
+  ],
+  [
+   0.9878787878787879,
+   "data/angelina/uploaded/test2/4661bc1cddc64d9386f912234a3bbec9.labeled.jpg"
+  ],
+  [
+   0.7767441860465117,
+   "data/angelina/uploaded/test2/51540f5a38b84ed4b92367897569c565.labeled.jpg"
+  ],
+  [
+   0.6523076923076924,
+   "data/angelina/uploaded/test2/592644964b764e4090a3c8b35ea042c7.labeled.jpg"
+  ],
+  [
+   0.990990990990991,
+   "data/angelina/uploaded/test2/828bc57f3ebe45feaa6fde7e51bab570.labeled.jpg"
+  ],
+  [
+   0.4720496894409938,
+   "data/angelina/uploaded/test2/af3d648e88464c7bad4bc334bb2c16a4.labeled.jpg"
+  ],
+  [
+   0.8618968386023295,
+   "data/angelina/uploaded/test2/b5a96649882440b7b7c189349da0dd12.labeled.jpg"
+  ],
+  [
+   0.06666666666666667,
+   "data/angelina/uploaded/test2/e60588dd418f473e8c6ba0ce9bfcbab0.labeled.jpg"
+  ],
+  [
+   0.8458692971639952,
+   "data/angelina/uploaded/test2/eda9f16c8aca4aa3ad6ca74116dbbe72.labeled.jpg"
+  ],
+  [
+   0.9584245076586434,
+   "data/angelina/uploaded/test2/f271f266efc0417b90ec62a86874121e.labeled.jpg"
+  ],
+  [
+   0.9889807162534435,
+   "data/angelina/uploaded/test2/f4f053aebc60433882a6d534e9cd8afe.labeled.jpg"
+  ],
+  [
+   0.9734939759036145,
+   "data/angelina/uploaded/test2/f77b3332e0034c29807a841515b98142.labeled.jpg"
+  ]
+ ]
+}

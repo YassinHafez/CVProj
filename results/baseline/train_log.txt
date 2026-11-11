@@ -1,0 +1,305 @@
+train images 235, 118 steps/epoch, 35400 total steps
+params 9.48 M
+device: /job:localhost/replica:0/task:0/device:GPU:0
+compiling the XLA training graph (~1.5 min, the GPU is idle during this)...
+compiled in 108s, training starts
+ep   1/300 box 5.555 cls 6.303 dfl 3.219 lr 6.10e-04 15s
+ep   2/300 box 1.789 cls 2.349 dfl 1.243 lr 1.28e-03 14s
+ep   3/300 box 0.912 cls 0.730 dfl 0.911 lr 1.94e-03 14s
+ep   4/300 box 0.815 cls 0.594 dfl 0.880 lr 2.00e-03 14s
+ep   5/300 box 0.740 cls 0.510 dfl 0.860 lr 2.00e-03 15s
+ep   6/300 box 0.711 cls 0.448 dfl 0.843 lr 2.00e-03 16s
+ep   7/300 box 0.672 cls 0.422 dfl 0.834 lr 2.00e-03 16s
+ep   8/300 box 0.646 cls 0.398 dfl 0.828 lr 2.00e-03 16s
+ep   9/300 box 0.634 cls 0.379 dfl 0.823 lr 2.00e-03 16s
+ep  10/300 box 0.635 cls 0.370 dfl 0.822 lr 2.00e-03 15s | val mAP50 0.9384 mAP50-95 0.7810 charF1 0.9946 macroF1 0.9068 @conf 0.300 *
+ep  11/300 box 0.603 cls 0.353 dfl 0.816 lr 2.00e-03 15s
+ep  12/300 box 0.620 cls 0.347 dfl 0.818 lr 2.00e-03 14s
+ep  13/300 box 0.612 cls 0.350 dfl 0.817 lr 1.99e-03 15s
+ep  14/300 box 0.596 cls 0.334 dfl 0.812 lr 1.99e-03 15s
+ep  15/300 box 0.587 cls 0.331 dfl 0.812 lr 1.99e-03 14s
+ep  16/300 box 0.582 cls 0.319 dfl 0.811 lr 1.99e-03 14s
+ep  17/300 box 0.591 cls 0.327 dfl 0.812 lr 1.99e-03 14s
+ep  18/300 box 0.574 cls 0.313 dfl 0.811 lr 1.99e-03 14s
+ep  19/300 box 0.567 cls 0.308 dfl 0.809 lr 1.99e-03 14s
+ep  20/300 box 0.563 cls 0.306 dfl 0.806 lr 1.98e-03 14s | val mAP50 0.9440 mAP50-95 0.8167 charF1 0.9935 macroF1 0.9377 @conf 0.275 *
+ep  21/300 box 0.562 cls 0.304 dfl 0.806 lr 1.98e-03 15s
+ep  22/300 box 0.570 cls 0.301 dfl 0.807 lr 1.98e-03 15s
+ep  23/300 box 0.558 cls 0.298 dfl 0.805 lr 1.98e-03 15s
+ep  24/300 box 0.565 cls 0.299 dfl 0.807 lr 1.98e-03 14s
+ep  25/300 box 0.563 cls 0.307 dfl 0.807 lr 1.97e-03 15s
+ep  26/300 box 0.555 cls 0.291 dfl 0.804 lr 1.97e-03 14s
+ep  27/300 box 0.544 cls 0.288 dfl 0.803 lr 1.97e-03 14s
+ep  28/300 box 0.553 cls 0.292 dfl 0.807 lr 1.97e-03 14s
+ep  29/300 box 0.544 cls 0.283 dfl 0.803 lr 1.96e-03 14s
+ep  30/300 box 0.555 cls 0.287 dfl 0.805 lr 1.96e-03 15s | val mAP50 0.9905 mAP50-95 0.8632 charF1 0.9980 macroF1 0.9734 @conf 0.375 *
+ep  31/300 box 0.564 cls 0.289 dfl 0.806 lr 1.96e-03 15s
+ep  32/300 box 0.544 cls 0.282 dfl 0.801 lr 1.95e-03 15s
+ep  33/300 box 0.543 cls 0.280 dfl 0.801 lr 1.95e-03 15s
+ep  34/300 box 0.562 cls 0.285 dfl 0.806 lr 1.95e-03 15s
+ep  35/300 box 0.534 cls 0.276 dfl 0.802 lr 1.94e-03 15s
+ep  36/300 box 0.541 cls 0.278 dfl 0.801 lr 1.94e-03 15s
+ep  37/300 box 0.541 cls 0.275 dfl 0.802 lr 1.94e-03 15s
+ep  38/300 box 0.551 cls 0.284 dfl 0.804 lr 1.93e-03 15s
+ep  39/300 box 0.550 cls 0.287 dfl 0.800 lr 1.93e-03 15s
+ep  40/300 box 0.536 cls 0.279 dfl 0.803 lr 1.93e-03 15s | val mAP50 0.9865 mAP50-95 0.8660 charF1 0.9974 macroF1 0.9731 @conf 0.325
+ep  41/300 box 0.540 cls 0.279 dfl 0.802 lr 1.92e-03 15s
+ep  42/300 box 0.541 cls 0.273 dfl 0.801 lr 1.92e-03 15s
+ep  43/300 box 0.534 cls 0.272 dfl 0.800 lr 1.91e-03 15s
+ep  44/300 box 0.539 cls 0.273 dfl 0.800 lr 1.91e-03 15s
+ep  45/300 box 0.537 cls 0.275 dfl 0.802 lr 1.90e-03 15s
+ep  46/300 box 0.542 cls 0.270 dfl 0.801 lr 1.90e-03 15s
+ep  47/300 box 0.531 cls 0.268 dfl 0.800 lr 1.90e-03 15s
+ep  48/300 box 0.532 cls 0.268 dfl 0.799 lr 1.89e-03 15s
+ep  49/300 box 0.528 cls 0.266 dfl 0.801 lr 1.89e-03 15s
+ep  50/300 box 0.530 cls 0.266 dfl 0.799 lr 1.88e-03 15s | val mAP50 0.9890 mAP50-95 0.8613 charF1 0.9981 macroF1 0.9581 @conf 0.500
+ep  51/300 box 0.527 cls 0.266 dfl 0.800 lr 1.88e-03 15s
+ep  52/300 box 0.535 cls 0.265 dfl 0.799 lr 1.87e-03 15s
+ep  53/300 box 0.529 cls 0.264 dfl 0.800 lr 1.87e-03 15s
+ep  54/300 box 0.540 cls 0.276 dfl 0.803 lr 1.86e-03 15s
+ep  55/300 box 0.531 cls 0.265 dfl 0.800 lr 1.85e-03 15s
+ep  56/300 box 0.523 cls 0.262 dfl 0.798 lr 1.85e-03 15s
+ep  57/300 box 0.526 cls 0.263 dfl 0.798 lr 1.84e-03 15s
+ep  58/300 box 0.522 cls 0.259 dfl 0.798 lr 1.84e-03 15s
+ep  59/300 box 0.519 cls 0.260 dfl 0.798 lr 1.83e-03 15s
+ep  60/300 box 0.517 cls 0.255 dfl 0.799 lr 1.83e-03 15s | val mAP50 0.9880 mAP50-95 0.8668 charF1 0.9983 macroF1 0.9790 @conf 0.225
+ep  61/300 box 0.518 cls 0.254 dfl 0.799 lr 1.82e-03 15s
+ep  62/300 box 0.515 cls 0.258 dfl 0.798 lr 1.81e-03 15s
+ep  63/300 box 0.516 cls 0.256 dfl 0.798 lr 1.81e-03 15s
+ep  64/300 box 0.522 cls 0.261 dfl 0.799 lr 1.80e-03 15s
+ep  65/300 box 0.518 cls 0.255 dfl 0.798 lr 1.80e-03 15s
+ep  66/300 box 0.517 cls 0.256 dfl 0.798 lr 1.79e-03 15s
+ep  67/300 box 0.518 cls 0.252 dfl 0.798 lr 1.78e-03 15s
+ep  68/300 box 0.514 cls 0.253 dfl 0.795 lr 1.78e-03 15s
+ep  69/300 box 0.510 cls 0.254 dfl 0.797 lr 1.77e-03 15s
+ep  70/300 box 0.513 cls 0.252 dfl 0.797 lr 1.76e-03 15s | val mAP50 0.9933 mAP50-95 0.8812 charF1 0.9986 macroF1 0.9936 @conf 0.200 *
+ep  71/300 box 0.512 cls 0.252 dfl 0.796 lr 1.76e-03 15s
+ep  72/300 box 0.506 cls 0.249 dfl 0.797 lr 1.75e-03 15s
+ep  73/300 box 0.522 cls 0.255 dfl 0.798 lr 1.74e-03 15s
+ep  74/300 box 0.522 cls 0.253 dfl 0.798 lr 1.73e-03 15s
+ep  75/300 box 0.507 cls 0.253 dfl 0.797 lr 1.73e-03 15s
+ep  76/300 box 0.516 cls 0.253 dfl 0.797 lr 1.72e-03 15s
+ep  77/300 box 0.504 cls 0.246 dfl 0.795 lr 1.71e-03 15s
+ep  78/300 box 0.509 cls 0.250 dfl 0.796 lr 1.71e-03 15s
+ep  79/300 box 0.511 cls 0.253 dfl 0.796 lr 1.70e-03 15s
+ep  80/300 box 0.505 cls 0.245 dfl 0.796 lr 1.69e-03 15s | val mAP50 0.9936 mAP50-95 0.8818 charF1 0.9988 macroF1 0.9971 @conf 0.450 *
+ep  81/300 box 0.508 cls 0.246 dfl 0.796 lr 1.68e-03 15s
+ep  82/300 box 0.505 cls 0.245 dfl 0.797 lr 1.67e-03 15s
+ep  83/300 box 0.503 cls 0.246 dfl 0.796 lr 1.67e-03 15s
+ep  84/300 box 0.513 cls 0.249 dfl 0.796 lr 1.66e-03 15s
+ep  85/300 box 0.516 cls 0.252 dfl 0.797 lr 1.65e-03 15s
+ep  86/300 box 0.501 cls 0.247 dfl 0.795 lr 1.64e-03 15s
+ep  87/300 box 0.519 cls 0.254 dfl 0.796 lr 1.63e-03 15s
+ep  88/300 box 0.509 cls 0.248 dfl 0.796 lr 1.63e-03 15s
+ep  89/300 box 0.504 cls 0.245 dfl 0.796 lr 1.62e-03 15s
+ep  90/300 box 0.496 cls 0.244 dfl 0.794 lr 1.61e-03 15s | val mAP50 0.9936 mAP50-95 0.8851 charF1 0.9987 macroF1 0.9780 @conf 0.200 *
+ep  91/300 box 0.513 cls 0.248 dfl 0.795 lr 1.60e-03 15s
+ep  92/300 box 0.502 cls 0.242 dfl 0.796 lr 1.59e-03 15s
+ep  93/300 box 0.507 cls 0.245 dfl 0.797 lr 1.58e-03 15s
+ep  94/300 box 0.515 cls 0.249 dfl 0.797 lr 1.58e-03 15s
+ep  95/300 box 0.496 cls 0.241 dfl 0.794 lr 1.57e-03 15s
+ep  96/300 box 0.497 cls 0.237 dfl 0.794 lr 1.56e-03 15s
+ep  97/300 box 0.506 cls 0.243 dfl 0.796 lr 1.55e-03 15s
+ep  98/300 box 0.503 cls 0.244 dfl 0.795 lr 1.54e-03 15s
+ep  99/300 box 0.499 cls 0.242 dfl 0.794 lr 1.53e-03 15s
+ep 100/300 box 0.501 cls 0.239 dfl 0.794 lr 1.52e-03 16s | val mAP50 0.9930 mAP50-95 0.8833 charF1 0.9987 macroF1 0.9963 @conf 0.175
+ep 101/300 box 0.498 cls 0.235 dfl 0.795 lr 1.51e-03 15s
+ep 102/300 box 0.504 cls 0.248 dfl 0.795 lr 1.51e-03 15s
+ep 103/300 box 0.498 cls 0.242 dfl 0.794 lr 1.50e-03 15s
+ep 104/300 box 0.501 cls 0.241 dfl 0.794 lr 1.49e-03 15s
+ep 105/300 box 0.501 cls 0.240 dfl 0.795 lr 1.48e-03 15s
+ep 106/300 box 0.502 cls 0.241 dfl 0.795 lr 1.47e-03 15s
+ep 107/300 box 0.502 cls 0.241 dfl 0.794 lr 1.46e-03 15s
+ep 108/300 box 0.507 cls 0.242 dfl 0.797 lr 1.45e-03 15s
+ep 109/300 box 0.503 cls 0.240 dfl 0.795 lr 1.44e-03 15s
+ep 110/300 box 0.490 cls 0.232 dfl 0.793 lr 1.43e-03 15s | val mAP50 0.9935 mAP50-95 0.8857 charF1 0.9987 macroF1 0.9974 @conf 0.350
+ep 111/300 box 0.502 cls 0.244 dfl 0.796 lr 1.42e-03 15s
+ep 112/300 box 0.498 cls 0.239 dfl 0.795 lr 1.41e-03 15s
+ep 113/300 box 0.501 cls 0.238 dfl 0.796 lr 1.40e-03 15s
+ep 114/300 box 0.489 cls 0.234 dfl 0.794 lr 1.39e-03 15s
+ep 115/300 box 0.498 cls 0.238 dfl 0.796 lr 1.38e-03 15s
+ep 116/300 box 0.497 cls 0.238 dfl 0.795 lr 1.37e-03 15s
+ep 117/300 box 0.492 cls 0.234 dfl 0.794 lr 1.36e-03 15s
+ep 118/300 box 0.494 cls 0.234 dfl 0.793 lr 1.35e-03 15s
+ep 119/300 box 0.500 cls 0.235 dfl 0.796 lr 1.34e-03 15s
+ep 120/300 box 0.488 cls 0.235 dfl 0.793 lr 1.33e-03 15s | val mAP50 0.9936 mAP50-95 0.8858 charF1 0.9989 macroF1 0.9973 @conf 0.350 *
+ep 121/300 box 0.497 cls 0.234 dfl 0.794 lr 1.32e-03 15s
+ep 122/300 box 0.493 cls 0.230 dfl 0.795 lr 1.31e-03 15s
+ep 123/300 box 0.493 cls 0.234 dfl 0.794 lr 1.30e-03 15s
+ep 124/300 box 0.492 cls 0.230 dfl 0.794 lr 1.29e-03 15s
+ep 125/300 box 0.489 cls 0.230 dfl 0.794 lr 1.28e-03 15s
+ep 126/300 box 0.488 cls 0.230 dfl 0.793 lr 1.27e-03 15s
+ep 127/300 box 0.494 cls 0.233 dfl 0.794 lr 1.26e-03 15s
+ep 128/300 box 0.489 cls 0.230 dfl 0.792 lr 1.25e-03 15s
+ep 129/300 box 0.490 cls 0.228 dfl 0.795 lr 1.24e-03 16s
+ep 130/300 box 0.486 cls 0.233 dfl 0.792 lr 1.23e-03 17s | val mAP50 0.9936 mAP50-95 0.8855 charF1 0.9989 macroF1 0.9974 @conf 0.475
+ep 131/300 box 0.486 cls 0.230 dfl 0.792 lr 1.22e-03 16s
+ep 132/300 box 0.480 cls 0.226 dfl 0.792 lr 1.21e-03 16s
+ep 133/300 box 0.491 cls 0.230 dfl 0.793 lr 1.20e-03 16s
+ep 134/300 box 0.487 cls 0.230 dfl 0.793 lr 1.19e-03 16s
+ep 135/300 box 0.486 cls 0.228 dfl 0.792 lr 1.18e-03 16s
+ep 136/300 box 0.482 cls 0.226 dfl 0.791 lr 1.17e-03 16s
+ep 137/300 box 0.487 cls 0.227 dfl 0.793 lr 1.16e-03 16s
+ep 138/300 box 0.482 cls 0.223 dfl 0.793 lr 1.15e-03 16s
+ep 139/300 box 0.488 cls 0.231 dfl 0.793 lr 1.14e-03 16s
+ep 140/300 box 0.486 cls 0.227 dfl 0.792 lr 1.13e-03 16s | val mAP50 0.9936 mAP50-95 0.8862 charF1 0.9987 macroF1 0.9968 @conf 0.250
+ep 141/300 box 0.487 cls 0.228 dfl 0.792 lr 1.12e-03 16s
+ep 142/300 box 0.488 cls 0.227 dfl 0.795 lr 1.11e-03 16s
+ep 143/300 box 0.486 cls 0.228 dfl 0.791 lr 1.10e-03 16s
+ep 144/300 box 0.485 cls 0.228 dfl 0.793 lr 1.09e-03 16s
+ep 145/300 box 0.482 cls 0.228 dfl 0.791 lr 1.08e-03 16s
+ep 146/300 box 0.482 cls 0.225 dfl 0.793 lr 1.07e-03 16s
+ep 147/300 box 0.482 cls 0.224 dfl 0.792 lr 1.06e-03 16s
+ep 148/300 box 0.481 cls 0.225 dfl 0.792 lr 1.05e-03 16s
+ep 149/300 box 0.486 cls 0.225 dfl 0.792 lr 1.04e-03 16s
+ep 150/300 box 0.481 cls 0.224 dfl 0.792 lr 1.03e-03 16s | val mAP50 0.9936 mAP50-95 0.8868 charF1 0.9989 macroF1 0.9969 @conf 0.325
+ep 151/300 box 0.471 cls 0.220 dfl 0.790 lr 1.02e-03 16s
+ep 152/300 box 0.478 cls 0.225 dfl 0.793 lr 1.01e-03 17s
+ep 153/300 box 0.478 cls 0.221 dfl 0.791 lr 9.95e-04 17s
+ep 154/300 box 0.477 cls 0.222 dfl 0.790 lr 9.85e-04 17s
+ep 155/300 box 0.477 cls 0.221 dfl 0.792 lr 9.74e-04 17s
+ep 156/300 box 0.468 cls 0.217 dfl 0.790 lr 9.64e-04 17s
+ep 157/300 box 0.477 cls 0.221 dfl 0.791 lr 9.53e-04 17s
+ep 158/300 box 0.480 cls 0.222 dfl 0.792 lr 9.43e-04 16s
+ep 159/300 box 0.482 cls 0.223 dfl 0.791 lr 9.33e-04 16s
+ep 160/300 box 0.473 cls 0.220 dfl 0.793 lr 9.22e-04 17s | val mAP50 0.9936 mAP50-95 0.8873 charF1 0.9989 macroF1 0.9970 @conf 0.375 *
+ep 161/300 box 0.479 cls 0.222 dfl 0.791 lr 9.12e-04 16s
+ep 162/300 box 0.475 cls 0.220 dfl 0.791 lr 9.01e-04 16s
+ep 163/300 box 0.475 cls 0.221 dfl 0.790 lr 8.91e-04 16s
+ep 164/300 box 0.470 cls 0.217 dfl 0.791 lr 8.80e-04 17s
+ep 165/300 box 0.481 cls 0.222 dfl 0.793 lr 8.70e-04 17s
+ep 166/300 box 0.474 cls 0.220 dfl 0.791 lr 8.60e-04 17s
+ep 167/300 box 0.475 cls 0.219 dfl 0.792 lr 8.49e-04 17s
+ep 168/300 box 0.473 cls 0.218 dfl 0.791 lr 8.39e-04 17s
+ep 169/300 box 0.471 cls 0.216 dfl 0.791 lr 8.29e-04 17s
+ep 170/300 box 0.471 cls 0.217 dfl 0.791 lr 8.19e-04 18s | val mAP50 0.9937 mAP50-95 0.8874 charF1 0.9989 macroF1 0.9973 @conf 0.325 *
+ep 171/300 box 0.473 cls 0.216 dfl 0.790 lr 8.08e-04 16s
+ep 172/300 box 0.473 cls 0.216 dfl 0.790 lr 7.98e-04 17s
+ep 173/300 box 0.471 cls 0.218 dfl 0.790 lr 7.88e-04 17s
+ep 174/300 box 0.468 cls 0.214 dfl 0.790 lr 7.78e-04 17s
+ep 175/300 box 0.471 cls 0.216 dfl 0.791 lr 7.67e-04 18s
+ep 176/300 box 0.468 cls 0.213 dfl 0.791 lr 7.57e-04 18s
+ep 177/300 box 0.470 cls 0.212 dfl 0.790 lr 7.47e-04 18s
+ep 178/300 box 0.467 cls 0.211 dfl 0.791 lr 7.37e-04 18s
+ep 179/300 box 0.467 cls 0.213 dfl 0.789 lr 7.27e-04 18s
+ep 180/300 box 0.470 cls 0.216 dfl 0.790 lr 7.17e-04 18s | val mAP50 0.9937 mAP50-95 0.8878 charF1 0.9990 macroF1 0.9977 @conf 0.475 *
+ep 181/300 box 0.467 cls 0.212 dfl 0.789 lr 7.07e-04 18s
+ep 182/300 box 0.473 cls 0.215 dfl 0.791 lr 6.97e-04 18s
+ep 183/300 box 0.470 cls 0.214 dfl 0.792 lr 6.87e-04 18s
+ep 184/300 box 0.464 cls 0.212 dfl 0.790 lr 6.77e-04 18s
+ep 185/300 box 0.457 cls 0.208 dfl 0.787 lr 6.67e-04 18s
+ep 186/300 box 0.462 cls 0.210 dfl 0.788 lr 6.58e-04 18s
+ep 187/300 box 0.466 cls 0.213 dfl 0.789 lr 6.48e-04 18s
+ep 188/300 box 0.464 cls 0.210 dfl 0.790 lr 6.38e-04 18s
+ep 189/300 box 0.461 cls 0.210 dfl 0.790 lr 6.29e-04 18s
+ep 190/300 box 0.462 cls 0.209 dfl 0.790 lr 6.19e-04 18s | val mAP50 0.9937 mAP50-95 0.8881 charF1 0.9990 macroF1 0.9977 @conf 0.450 *
+ep 191/300 box 0.467 cls 0.210 dfl 0.790 lr 6.09e-04 18s
+ep 192/300 box 0.464 cls 0.208 dfl 0.791 lr 6.00e-04 18s
+ep 193/300 box 0.462 cls 0.207 dfl 0.788 lr 5.90e-04 18s
+ep 194/300 box 0.461 cls 0.207 dfl 0.788 lr 5.81e-04 18s
+ep 195/300 box 0.461 cls 0.208 dfl 0.789 lr 5.71e-04 18s
+ep 196/300 box 0.461 cls 0.210 dfl 0.788 lr 5.62e-04 18s
+ep 197/300 box 0.460 cls 0.208 dfl 0.790 lr 5.53e-04 18s
+ep 198/300 box 0.461 cls 0.209 dfl 0.790 lr 5.43e-04 18s
+ep 199/300 box 0.462 cls 0.207 dfl 0.789 lr 5.34e-04 18s
+ep 200/300 box 0.457 cls 0.205 dfl 0.789 lr 5.25e-04 18s | val mAP50 0.9937 mAP50-95 0.8880 charF1 0.9990 macroF1 0.9974 @conf 0.275 *
+ep 201/300 box 0.462 cls 0.208 dfl 0.790 lr 5.16e-04 18s
+ep 202/300 box 0.460 cls 0.206 dfl 0.789 lr 5.07e-04 18s
+ep 203/300 box 0.454 cls 0.206 dfl 0.789 lr 4.98e-04 18s
+ep 204/300 box 0.453 cls 0.203 dfl 0.789 lr 4.89e-04 18s
+ep 205/300 box 0.458 cls 0.206 dfl 0.789 lr 4.80e-04 18s
+ep 206/300 box 0.455 cls 0.206 dfl 0.787 lr 4.71e-04 18s
+ep 207/300 box 0.457 cls 0.204 dfl 0.789 lr 4.63e-04 18s
+ep 208/300 box 0.455 cls 0.205 dfl 0.789 lr 4.54e-04 18s
+ep 209/300 box 0.460 cls 0.205 dfl 0.788 lr 4.45e-04 18s
+ep 210/300 box 0.455 cls 0.204 dfl 0.787 lr 4.37e-04 18s | val mAP50 0.9937 mAP50-95 0.8884 charF1 0.9990 macroF1 0.9976 @conf 0.600
+ep 211/300 box 0.452 cls 0.203 dfl 0.788 lr 4.28e-04 18s
+ep 212/300 box 0.452 cls 0.203 dfl 0.787 lr 4.20e-04 18s
+ep 213/300 box 0.451 cls 0.201 dfl 0.788 lr 4.11e-04 18s
+ep 214/300 box 0.451 cls 0.202 dfl 0.786 lr 4.03e-04 18s
+ep 215/300 box 0.447 cls 0.201 dfl 0.787 lr 3.95e-04 18s
+ep 216/300 box 0.450 cls 0.201 dfl 0.788 lr 3.87e-04 18s
+ep 217/300 box 0.449 cls 0.201 dfl 0.788 lr 3.79e-04 18s
+ep 218/300 box 0.450 cls 0.200 dfl 0.788 lr 3.71e-04 18s
+ep 219/300 box 0.451 cls 0.203 dfl 0.787 lr 3.63e-04 18s
+ep 220/300 box 0.454 cls 0.202 dfl 0.788 lr 3.55e-04 18s | val mAP50 0.9937 mAP50-95 0.8887 charF1 0.9991 macroF1 0.9977 @conf 0.625 *
+ep 221/300 box 0.452 cls 0.202 dfl 0.789 lr 3.47e-04 18s
+ep 222/300 box 0.446 cls 0.200 dfl 0.786 lr 3.39e-04 18s
+ep 223/300 box 0.450 cls 0.200 dfl 0.787 lr 3.32e-04 18s
+ep 224/300 box 0.447 cls 0.198 dfl 0.786 lr 3.24e-04 18s
+ep 225/300 box 0.445 cls 0.196 dfl 0.786 lr 3.16e-04 18s
+ep 226/300 box 0.447 cls 0.198 dfl 0.788 lr 3.09e-04 18s
+ep 227/300 box 0.447 cls 0.200 dfl 0.788 lr 3.02e-04 18s
+ep 228/300 box 0.445 cls 0.198 dfl 0.787 lr 2.94e-04 18s
+ep 229/300 box 0.448 cls 0.198 dfl 0.787 lr 2.87e-04 18s
+ep 230/300 box 0.448 cls 0.198 dfl 0.788 lr 2.80e-04 18s | val mAP50 0.9937 mAP50-95 0.8891 charF1 0.9991 macroF1 0.9977 @conf 0.600 *
+ep 231/300 box 0.444 cls 0.197 dfl 0.786 lr 2.73e-04 18s
+ep 232/300 box 0.447 cls 0.198 dfl 0.787 lr 2.66e-04 18s
+ep 233/300 box 0.445 cls 0.198 dfl 0.786 lr 2.59e-04 18s
+ep 234/300 box 0.442 cls 0.195 dfl 0.786 lr 2.52e-04 18s
+ep 235/300 box 0.444 cls 0.195 dfl 0.788 lr 2.46e-04 19s
+ep 236/300 box 0.446 cls 0.197 dfl 0.786 lr 2.39e-04 18s
+ep 237/300 box 0.443 cls 0.197 dfl 0.786 lr 2.33e-04 18s
+ep 238/300 box 0.440 cls 0.195 dfl 0.787 lr 2.26e-04 18s
+ep 239/300 box 0.440 cls 0.193 dfl 0.786 lr 2.20e-04 18s
+ep 240/300 box 0.445 cls 0.197 dfl 0.788 lr 2.14e-04 18s | val mAP50 0.9937 mAP50-95 0.8895 charF1 0.9990 macroF1 0.9978 @conf 0.300 *
+ep 241/300 box 0.442 cls 0.194 dfl 0.787 lr 2.07e-04 18s
+ep 242/300 box 0.447 cls 0.196 dfl 0.788 lr 2.01e-04 17s
+ep 243/300 box 0.441 cls 0.195 dfl 0.786 lr 1.95e-04 17s
+ep 244/300 box 0.440 cls 0.194 dfl 0.786 lr 1.89e-04 17s
+ep 245/300 box 0.441 cls 0.194 dfl 0.786 lr 1.84e-04 17s
+ep 246/300 box 0.436 cls 0.193 dfl 0.785 lr 1.78e-04 17s
+ep 247/300 box 0.442 cls 0.195 dfl 0.787 lr 1.72e-04 17s
+ep 248/300 box 0.439 cls 0.192 dfl 0.788 lr 1.67e-04 17s
+ep 249/300 box 0.441 cls 0.194 dfl 0.786 lr 1.61e-04 17s
+ep 250/300 box 0.439 cls 0.193 dfl 0.786 lr 1.56e-04 17s | val mAP50 0.9937 mAP50-95 0.8897 charF1 0.9991 macroF1 0.9978 @conf 0.275 *
+ep 251/300 box 0.444 cls 0.195 dfl 0.786 lr 1.51e-04 17s
+ep 252/300 box 0.438 cls 0.193 dfl 0.786 lr 1.46e-04 17s
+ep 253/300 box 0.440 cls 0.194 dfl 0.785 lr 1.41e-04 18s
+ep 254/300 box 0.437 cls 0.192 dfl 0.787 lr 1.36e-04 17s
+ep 255/300 box 0.444 cls 0.194 dfl 0.786 lr 1.31e-04 17s
+ep 256/300 box 0.440 cls 0.195 dfl 0.786 lr 1.26e-04 18s
+ep 257/300 box 0.438 cls 0.192 dfl 0.787 lr 1.21e-04 18s
+ep 258/300 box 0.435 cls 0.193 dfl 0.785 lr 1.17e-04 17s
+ep 259/300 box 0.434 cls 0.191 dfl 0.785 lr 1.12e-04 17s
+ep 260/300 box 0.438 cls 0.191 dfl 0.785 lr 1.08e-04 17s | val mAP50 0.9938 mAP50-95 0.8898 charF1 0.9992 macroF1 0.9979 @conf 0.300 *
+ep 261/300 box 0.437 cls 0.191 dfl 0.785 lr 1.04e-04 17s
+ep 262/300 box 0.440 cls 0.192 dfl 0.786 lr 9.95e-05 17s
+ep 263/300 box 0.439 cls 0.192 dfl 0.788 lr 9.54e-05 17s
+ep 264/300 box 0.438 cls 0.191 dfl 0.787 lr 9.15e-05 17s
+ep 265/300 box 0.437 cls 0.191 dfl 0.786 lr 8.76e-05 17s
+ep 266/300 box 0.432 cls 0.189 dfl 0.787 lr 8.39e-05 17s
+ep 267/300 box 0.434 cls 0.192 dfl 0.785 lr 8.02e-05 17s
+ep 268/300 box 0.433 cls 0.190 dfl 0.786 lr 7.67e-05 16s
+ep 269/300 box 0.433 cls 0.190 dfl 0.785 lr 7.32e-05 16s
+ep 270/300 box 0.434 cls 0.190 dfl 0.786 lr 6.99e-05 17s | val mAP50 0.9938 mAP50-95 0.8896 charF1 0.9992 macroF1 0.9979 @conf 0.275 *
+ep 271/300 box 0.434 cls 0.190 dfl 0.787 lr 6.67e-05 16s
+ep 272/300 box 0.435 cls 0.190 dfl 0.786 lr 6.35e-05 17s
+ep 273/300 box 0.430 cls 0.190 dfl 0.785 lr 6.05e-05 17s
+ep 274/300 box 0.436 cls 0.191 dfl 0.787 lr 5.76e-05 17s
+ep 275/300 box 0.434 cls 0.189 dfl 0.786 lr 5.48e-05 17s
+ep 276/300 box 0.429 cls 0.189 dfl 0.786 lr 5.21e-05 17s
+ep 277/300 box 0.437 cls 0.190 dfl 0.786 lr 4.95e-05 15s
+ep 278/300 box 0.438 cls 0.191 dfl 0.786 lr 4.71e-05 15s
+ep 279/300 box 0.429 cls 0.189 dfl 0.785 lr 4.47e-05 15s
+ep 280/300 box 0.434 cls 0.191 dfl 0.785 lr 4.24e-05 15s | val mAP50 0.9938 mAP50-95 0.8901 charF1 0.9991 macroF1 0.9979 @conf 0.225 *
+ep 281/300 box 0.431 cls 0.189 dfl 0.786 lr 4.02e-05 16s
+ep 282/300 box 0.433 cls 0.190 dfl 0.786 lr 3.82e-05 14s
+ep 283/300 box 0.428 cls 0.189 dfl 0.784 lr 3.63e-05 15s
+ep 284/300 box 0.435 cls 0.191 dfl 0.786 lr 3.44e-05 15s
+ep 285/300 box 0.435 cls 0.190 dfl 0.785 lr 3.27e-05 15s
+ep 286/300 box 0.430 cls 0.188 dfl 0.786 lr 3.11e-05 15s
+ep 287/300 box 0.433 cls 0.190 dfl 0.786 lr 2.96e-05 15s
+ep 288/300 box 0.435 cls 0.191 dfl 0.785 lr 2.82e-05 17s
+ep 289/300 box 0.431 cls 0.188 dfl 0.785 lr 2.69e-05 16s
+ep 290/300 box 0.431 cls 0.189 dfl 0.785 lr 2.57e-05 15s | val mAP50 0.9938 mAP50-95 0.8903 charF1 0.9993 macroF1 0.9980 @conf 0.300 *
+ep 291/300 box 0.433 cls 0.188 dfl 0.786 lr 2.46e-05 15s
+ep 292/300 box 0.434 cls 0.189 dfl 0.787 lr 2.37e-05 15s
+ep 293/300 box 0.426 cls 0.187 dfl 0.784 lr 2.28e-05 14s
+ep 294/300 box 0.435 cls 0.190 dfl 0.786 lr 2.21e-05 15s
+ep 295/300 box 0.436 cls 0.189 dfl 0.786 lr 2.15e-05 14s
+ep 296/300 box 0.433 cls 0.188 dfl 0.786 lr 2.10e-05 14s
+ep 297/300 box 0.435 cls 0.189 dfl 0.786 lr 2.06e-05 14s
+ep 298/300 box 0.429 cls 0.188 dfl 0.785 lr 2.03e-05 14s
+ep 299/300 box 0.428 cls 0.186 dfl 0.784 lr 2.01e-05 14s
+ep 300/300 box 0.433 cls 0.190 dfl 0.785 lr 2.00e-05 14s | val mAP50 0.9938 mAP50-95 0.8897 charF1 0.9993 macroF1 0.9980 @conf 0.300 *

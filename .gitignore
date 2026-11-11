@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Dataset: re-download with scripts/download_data.sh
+data/
+
+# Model weights: only the final baseline checkpoint is kept in the repo (37 MB)
+*.weights.h5
+!results/baseline/best.weights.h5
+
+# Run-time scratch
+results/*/progress.txt
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store

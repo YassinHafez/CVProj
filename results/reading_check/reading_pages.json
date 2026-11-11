@@ -1,0 +1,32 @@
+[
+ {
+  "file": "IMG_20190715_112936.labeled.jpg",
+  "title": "1 · Printed book page (validation)",
+  "why": "Typical page from the same kind of source as training: two-sided printed book, phone photo.",
+  "gloss": "\"6 / Torn little boots, / ragged galoshes. / Who needs boots, / run to the miracle tree!\" (Chukovsky's children's poem \"The Miracle Tree\")"
+ },
+ {
+  "file": "ccc6c288-2a73-49d8-98b3-de518e3c9779-inv.labeled.jpg",
+  "title": "2 · Handwritten student sheet (validation)",
+  "why": "Braille written by hand with a slate, irregular spacing and dot depth.",
+  "gloss": "\"but the birds have stopped singing, / the flowers have faded, / the rays have paled, / the zephyrs have gone.\" (the ⠿⠿ marks are the Braille erase sign the writer used to cross out mistakes)"
+ },
+ {
+  "file": "16207179832707389675765890422772.labeled.jpg",
+  "title": "3 · Median user upload (test)",
+  "why": "The middle test image by official char-F1 (0.931): what a typical real upload looks like. This page is a chemistry table: the words and numbers are read correctly, but every vertical table border '|' (dots 4-5-6) is read as 'л' (dots 1-2-3). A lone column of dots is ambiguous without the cell grid around it, a genuine model error that accounts for most of this page's CER.",
+  "gloss": "\"Table 8. Physical properties: simple substance | boiling temperature (°C): fluorine −188, chlorine −34, bromine 59, iodine 185\" (a school chemistry table)"
+ },
+ {
+  "file": "16187743941276670750846468527301.labeled.jpg",
+  "title": "4 · User upload that the official metric calls bad (test)",
+  "why": "Official char-F1 is low here although nearly every cell is found: the test labels use narrower boxes, so correct reads fall under IoU 0.5. Compare the texts yourself.",
+  "gloss": "\"...nor ladders, nothing helped them reach the bottom of the cave. The green valley of the mountain...\""
+ },
+ {
+  "file": "e60588dd418f473e8c6ba0ce9bfcbab0.labeled.jpg",
+  "title": "5 · Worst user upload (test), a genuine failure",
+  "why": "The page is photographed so that dots appear as dents; the model learned dents (back side) as background and skips most cells.",
+  "gloss": "\"Women's work in the family: spinning, weaving, knitting, cooking. The modern family...\""
+ }
+]

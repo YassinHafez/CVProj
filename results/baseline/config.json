@@ -1,0 +1,26 @@
+{
+  "name": "baseline",
+  "index": "data/index.json",
+  "epochs": 300,
+  "batch": 8,
+  "imgsz": 640,
+  "crops_per_image": 4,
+  "lr": 0.002,
+  "lr_final": 0.01,
+  "weight_decay": 0.05,
+  "warmup_epochs": 3,
+  "clipnorm": 10.0,
+  "ema_decay": 0.9999,
+  "scale": [
+    0.75,
+    1.25
+  ],
+  "degrees": 3.0,
+  "blur_p": 0.15,
+  "max_boxes": 512,
+  "eval_every": 10,
+  "rare_oversample": 0.0,
+  "no_amp": false,
+  "no_xla": false,
+  "seed": 0
+}

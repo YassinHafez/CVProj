@@ -1,0 +1,5 @@
+run,inference,split,mAP50,mAP50-95,charP,charR,charF1,ctrF1,detF1,macroF1,ms/img
+baseline,plain,val,0.9938,0.89,0.9993,0.9993,0.9993,0.9994,0.9998,0.998,70
+baseline,plain,test,0.791,0.1521,0.8808,0.8247,0.8518,0.9478,0.8597,0.7603,72
+baseline,auto,val,0.9938,0.89,0.9993,0.9993,0.9993,0.9994,0.9998,0.998,141
+baseline,auto,test,0.7917,0.1525,0.8746,0.8306,0.852,0.9546,0.8599,0.761,141
